@@ -1,0 +1,26 @@
+.Card{
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    border: 3px solid   rebeccapurple;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.Card .title{
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.Card .content{
+    flex: 1;
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+}
