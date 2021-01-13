@@ -1,6 +1,5 @@
 import React from 'react'
 import produtos from '../../Data/produtos'
-import Produtos from '../../Data/produtos'
 import './repeticao.css'
 
 export default (props) => {
